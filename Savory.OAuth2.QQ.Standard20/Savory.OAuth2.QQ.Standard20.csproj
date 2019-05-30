@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>Savory.OAuth2.QQ</AssemblyName>
+    <RootNamespace>Savory.OAuth2.QQ</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\Savory.OAuth2.QQ.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Savory.RpcClient" Version="1.0.1" />
+  </ItemGroup>
+
+  <Import Project="..\Savory.OAuth2.QQ\Savory.OAuth2.QQ.projitems" Label="Shared" />
+
+</Project>

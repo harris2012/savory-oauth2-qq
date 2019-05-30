@@ -1,0 +1,32 @@
+﻿<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Savory.OAuth2.QQ</id>
+    <version>1.0.0</version>
+    <title>Savory.OAuth2.QQ</title>
+    <authors>Harris Zhang</authors>
+    <owners>Harris Zhang</owners>
+    <licenseUrl>https://www.savory.cn</licenseUrl>
+    <projectUrl>https://www.savory.cn</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/harriszhang14/Savory/master/Savory.Image/Icon/SavoryIcon_150_150.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Savory.OAuth2.QQ</description>
+    <releaseNotes>Savory.OAuth2.QQ</releaseNotes>
+    <copyright>Copyright © Harris Zhang 2016</copyright>
+    <tags>Savory.OAuth2.QQ</tags>
+  </metadata>
+  <files>
+    <file src="Savory.OAuth2.QQ.Net40\bin\Release\Savory.OAuth2.QQ.dll" target="lib\net40" />
+    <file src="Savory.OAuth2.QQ.Net40\bin\Release\Savory.OAuth2.QQ.xml" target="lib\net40" />
+    <file src="Savory.OAuth2.QQ.Net40\bin\Release\Savory.OAuth2.QQ.pdb" target="lib\net40" />
+    <file src="Savory.OAuth2.QQ.Net45\bin\Release\Savory.OAuth2.QQ.dll" target="lib\net45" />
+    <file src="Savory.OAuth2.QQ.Net45\bin\Release\Savory.OAuth2.QQ.xml" target="lib\net45" />
+    <file src="Savory.OAuth2.QQ.Net45\bin\Release\Savory.OAuth2.QQ.pdb" target="lib\net45" />
+    <file src="Savory.OAuth2.QQ.Net452\bin\Release\Savory.OAuth2.QQ.dll" target="lib\net452" />
+    <file src="Savory.OAuth2.QQ.Net452\bin\Release\Savory.OAuth2.QQ.xml" target="lib\net452" />
+    <file src="Savory.OAuth2.QQ.Net452\bin\Release\Savory.OAuth2.QQ.pdb" target="lib\net452" />
+    <file src="Savory.OAuth2.QQ.Standard20\bin\Release\netstandard2.0\Savory.OAuth2.QQ.dll" target="lib\netstandard2.0" />
+    <file src="Savory.OAuth2.QQ.Standard20\bin\Release\netstandard2.0\Savory.OAuth2.QQ.xml" target="lib\netstandard2.0" />
+    <file src="Savory.OAuth2.QQ.Standard20\bin\Release\netstandard2.0\Savory.OAuth2.QQ.pdb" target="lib\netstandard2.0" />
+  </files>
+</package>

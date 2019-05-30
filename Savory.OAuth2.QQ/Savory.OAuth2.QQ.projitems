@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>b5813951-d438-49d6-ab77-997f67145689</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Savory.OAuth2.QQ</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)AccessTokenManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AuthorizationResponse.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OpenIdManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)QQConfig.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)QQJump.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UserInfoManager.cs" />
+  </ItemGroup>
+</Project>
